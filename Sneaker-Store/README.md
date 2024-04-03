@@ -17,12 +17,12 @@ Payment Gateway: Integrated payment section for secure and convenient checkout.<
 Usage<br>
 To use the Sneaker Store application, simply navigate to the deployed website or clone this repository to your local machine and open index.html
 in your preferred web browser. Explore the different products, select your desired items, and proceed to checkout for a hassle-free shopping experience.<br>
-Technologies Used<br>
 <br>
+Technologies Used<br>
 -HTML5<br>
 -CSS3<br>
 -JavaScript<br>
 <br>
-Contributing
+Contributing<br>
 Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.<br>
 Please ensure that any contributions align with the project's goals and follow the code of conduct.<br>
