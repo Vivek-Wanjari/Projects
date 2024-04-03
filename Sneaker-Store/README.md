@@ -25,4 +25,3 @@ Technologies Used<br>
 <br>
 Contributing<br>
 Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.<br>
-Please ensure that any contributions align with the project's goals and follow the code of conduct.<br>
