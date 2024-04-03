@@ -15,7 +15,7 @@ Responsive Design: Ensures seamless experience across various devices with respo
 Payment Gateway: Integrated payment section for secure and convenient checkout.<br>
 <br>
 Usage<br>
-To use the Sneaker Store application, simply navigate to the deployed website or clone this repository to your local machine and open index.html<br>
+To use the Sneaker Store application, simply navigate to the deployed website or clone this repository to your local machine and open index.html
 in your preferred web browser. Explore the different products, select your desired items, and proceed to checkout for a hassle-free shopping experience.<br>
 Technologies Used<br>
 <br>
