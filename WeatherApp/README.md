@@ -11,10 +11,10 @@ Additional Weather Details : View additional details such as humidity and wind s
 Error Handling : Gracefully handle errors by displaying a message when an invalid city name is entered.<br>
 <br>
 Technologies Used<br>
--HTML5<br>
--CSS3<br>
--JavaScript (ES6+)<br>
--OpenWeatherMap API<br>
+<li>HTML5<br>
+<li>CSS3<br>
+<li>JavaScript (ES6+)<br>
+<li>OpenWeatherMap API<br>
 <br>
 Installation<br>
 To run the Weather App locally, follow these steps:<br>
