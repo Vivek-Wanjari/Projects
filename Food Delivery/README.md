@@ -1,6 +1,6 @@
 Online Food Ordering System<br>
-This project is a React-based web application for ordering food online. Users can browse through different food categories, add items to their cart,<br>
-and proceed to checkout to place orders. The system also includes authentication functionality for user login and signup.<br>
+This project is a React-based web application for ordering food online. Users can browse through different food categories,<br>
+add items to their cart, and proceed to checkout to place orders. The system also includes authentication functionality for user login and signup.<br>
 <br>
 Features<br>
 User Authentication: Users can sign in or sign up to access the system.<br>
