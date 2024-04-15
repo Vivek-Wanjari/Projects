@@ -12,7 +12,8 @@ Place Order : Users can input delivery information and place orders.<br>
 Technologies Used<br>
 React<br>
 React Router<br>
-HTML/CSS<br>
+HTML<br>
+CSS<br>
 JavaScript<br>
 <br>
 Installation<br>
