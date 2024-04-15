@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vivek Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair&family=Poppins:wght@400;700&family=Roboto+Slab:wght@100&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <div class="left">Vivek's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="#main">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#footer">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi my name is <span class="purple">Vivek</span>
+        <div>I am a passionate</div>
+        <span id="element"></span>
+        <div class="buttons">
+          <a class="btn" href="./assets/Vivek_resume.pdf" download>Download Resume
+          </a>
+          <a class="btn" href="https://github.com/Vivek-Wanjari/Projects.git" target="_blank" download>Visit Github</a>
+        </div>
+      </div>
+      <div class="rightSection">
+        <img src="images/bg.png" alt="" />
+      </div>
+    </section>
+    <hr />
+    <section class="second-section" id="about">
+      <span class="text-gray">What I have done so far</span>
+      <div class="my-history">
+        <h1>Early Education</h1>
+        <h1>Graduation</h1>
+        <h1>Work Experience</h1>
+      </div>
+      <div class="horizontal-line">
+        <div class="vertical">
+          <img class="image-top" src="images/school.png" alt="" />
+          <div class="vertical-data">
+            <div class="vertical-title">SSC(2013),HSC(2015)</div>
+            <div class="vertical-desc">
+              In Wardha, Maharashtra, I completed my Secondary School Certificate (SSC) in 2013 and 
+              Higher Secondary Certificate (HSC) in 2015 under the State Board. 
+              These milestones in my academic journey provided a solid foundation for my future endeavors.
+            </div>
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="images/gradu.png" alt="" />
+          <div class="vertical-data">
+            <div class="vertical-title">Bachlor of Engineering (E&TC) (2016-2022)</div>
+            <div></div>
+            <div class="vertical-desc">
+              I completed my Electronics and Telecommunication Engineering degree from Pune University in 2022 with a CGPA of 7.22. 
+              My academic journey took place at, Jayawant Shikshan Prasarak Mandal College of Engineering (JSCOE),
+              provided an enriching academic environment.
+            </div>
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="images/developer.png" alt="" />
+          <div class="vertical-data">
+            <div class="vertical-title">Full-Stack Development intern(08/2022-12/2022)</div>
+            <div class="vertical-desc">
+              During my internship, I completed modules in HTML, CSS, JavaScript,
+              jQuery, Bootstrap, React JS, Python, Django, achieving consistently high
+              performance ratings
+            </div>
+          </div>
+        </div>
+    </section>
+    <hr />
+    <section class="projects-section" id="projects">
+      <h2>Personal Projects</h2>
+      <div class="project" onmouseenter="playVideo('video1')" onmouseleave="pauseVideo('video1')">
+        <!--<p class="duration">Duration: January 2023 - March 2023</p>-->
+        <h4>Sneaker Store</h4>
+        <p class="description">
+          This web application is designed to showcase a variety of sneakers and facilitate
+          easy online purchases. Whether you're a sneaker enthusiast or simply looking
+          for stylish footwear, Sneaker Store has something for you.
+        </p>
+        <video id="video1" class="project-video" src="video/project1.mp4" muted loop preload="none"></video>
+      </div>
+      <div class="project" onmouseenter="playVideo('video2')" onmouseleave="pauseVideo('video2')">
+        <h4>Food Delivery</h4>
+        <!--<p class="duration">Duration: April 2023 - July 2023</p>-->
+        <p class="description">This project is a React-based web application for ordering food online. Users can browse
+          through different food categories, add items to their cart, and proceed
+          to checkout to place orders. The system also includes authentication
+          functionality for user login and signup</p>
+        <video id="video2" class="project-video" src="video/project2.mp4" muted loop preload="none"></video>
+      </div>
+      <div class="project" onmouseenter="playVideo('video3')" onmouseleave="pauseVideo('video3')">
+        <h4>Weather Site</h4>
+        <!--<p class="duration">Duration: April 2023 - July 2023</p>-->
+        <p class="description">Weather App is a simple web application that allows users to check the weather conditions
+          of any city around the world.
+          With real-time updates and intuitive design, users can quickly get the latest weather information wherever
+          they are.</p>
+        <video id="video3" class="project-video" src="video/project3.mp4" muted loop preload="none"></video>
+      </div>
+    </section>
+    <hr />
+    <section class="skills-section" id="skills">
+      <h2>Skills</h2>
+      <div class="skill-container" id="frontend">
+        <div class="image-container">
+          <div class="skill" id="frontendSkill">
+            <img src="images/frontend.png" class="img">
+            <h5>Frontend Development</h5>
+            <ul class="skill-list front-end">
+              <li><b>HTML5</b>: Proficient in writing semantic and accessible HTML markup for structuring web content.
+              </li>
+              <li><b>CSS3</b>: Skilled in using CSS3 for styling and layout, including selectors, box model, flexbox,
+                grid, and responsive design techniques.</li>
+              <li><b>JavaScript (ES6+)</b>: Experienced in JavaScript programming, including ES6 features, DOM
+                manipulation, event handling, and asynchronous programming with Promises and async/await.</li>
+              <li><b>Front-end Frameworks</b>: Familiarity with popular front-end frameworks such as React.js, Angular,
+                or Vue.js for building dynamic and interactive user interfaces.</li>
+              <li><b>CSS Preprocessors</b>: Basic knowledge of CSS preprocessors like SASS or LESS for efficient styling
+                workflows.</li>
+              <li><b>Responsive Design</b>: Understanding of responsive web design principles and techniques to ensure
+                optimal user experience across devices.</li>
+              <li><b>Cross-Browser Compatibility</b>: Awareness of browser differences and strategies to ensure
+                consistent rendering and functionality across various browsers.</li>
+              <li><b>Version Control</b>: Proficiency in using Git for version control, including basic commands like
+                commit, push, and pull.</li>
+              <li><b>Debugging and Optimization</b>: Ability to debug frontend code and optimize performance for better
+                user experience.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-container" id="backend">
+        <div class="image-container">
+          <div class="skill" id="backendSkill">
+            <img src="images/backend.png" class="img">
+            <h5>Backend Development</h5>
+            <ul class="skill-list back-end">
+              <li><b>Basic Server-Side Languages</b>: Familiarity with backend languages such as Node.js, Java at a
+                beginner level.</li>
+              <li><b>Introduction to Backend Frameworks</b>: Awareness of backend frameworks like Express.js for Node.js
+                or Flask for Python, with limited hands-on experience.</li>
+              <li><b>Database Fundamentals</b>: Understanding of relational databases (e.g., MySQL, PostgreSQL) and
+                basic CRUD operations (Create, Read, Update, Delete).</li>
+              <li><b>API Concepts</b>: Knowledge of RESTful principles and basic API usage for integrating frontend
+                applications with backend services.</li>
+              <li><b>Version Control</b>: Proficiency in using Git for version control, including basic commands like
+                commit, push, and pull.</li>
+              <li><b>Understanding of Client-Server Architecture</b>: Awareness of how client-side and server-side
+                components interact in web applications.</li>
+              <li><b>Introduction to Authentication</b>: Basic understanding of authentication concepts like sessions,
+                cookies, and tokens.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-container" id="tools">
+        <div class="image-container">
+          <div class="skill" id="toolsSkill">
+            <img class="img" src="images/bc9acd5645e07a3513db3d8c91a81d67.jpg">
+            <h5>Tools & Technologies</h5>
+            <ul class="skill-list tools">
+              <li><b>Version Control</b>: Proficient in using Git and GitHub for version control, including branching,
+                merging, and collaborating with other developers.</li>
+              <li><b>Integrated Development Environments (IDEs)</b>: Experienced in using Visual Studio Code (VS Code)
+                for code editing, debugging, and version control integration.</li>
+              <li><b>Backend Frameworks</b>: Basic understanding of backend frameworks like Spring Boot for Java-based
+                development, including setup and basic application development.</li>
+              <li><b>Database Management</b>: Familiarity with database management systems such as MySQL or PostgreSQL,
+                including basic SQL queries and database administration tasks.</li>
+              <li><b>Graphic Design Tools</b>: Proficient in using Adobe Photoshop for designing and editing web
+                graphics, including image manipulation and optimization for the web.</li>
+              <li><b>Database Design Tools</b>: Experience with tools like MySQL Workbench for database design,
+                modeling, and visualization.</li>
+              <li><b>Command Line Interface (CLI)</b>: Comfortable using the command line for tasks such as file
+                navigation, executing scripts, and managing development environments.</li>
+              <li><b>Package Managers</b>: Familiarity with package managers like npm (Node Package Manager) for
+                installing and managing dependencies in frontend and backend projects.</li>
+              <li><b>Containerization</b>: Awareness of containerization technologies like Docker for creating,
+                deploying, and managing lightweight, portable containers for applications.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+  </main>
+  <footer>
+    <div class="footer-main" id="footer">
+      <div class="footer-first">
+        <h3>Vivek's Developer Portfolio</h3>
+      </div>
+      <div class="footer-second">
+        <ul>
+          <li><a href="https://www.linkedin.com/in/vivek-wanjari-8b4833244/" target="_blank">LinkedIn </a><i
+              class="fa-brands fa-linkedin"></i> </li>
+          <li><a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new" target="_blank">Gmail </a><i
+              class="fa-sharp fa-regular fa-envelope"></i></li>
+          <li><a href="https://www.instagram.com/" target="_blank">Instagram </a><i class="fa-brands fa-instagram"></i>
+          </li>
+          <li><a href="https://www.facebook.com/" target="_blank">Facebook </a><i class="fa-brands fa-facebook"></i>
+          </li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.whatsapp&pli=1" target="_blank">Whatsapp </a><i
+              class="fa-brands fa-whatsapp"></i></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footer-rights">Copyright &#169; www.vivekportfolio.com | All rights reserved</div>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
